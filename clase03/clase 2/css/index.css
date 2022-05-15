@@ -1,0 +1,30 @@
+body{ 
+ background-color: rgb(155, 115, 161);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 26px;
+}
+
+h1{
+    margin: top 20px;;
+    margin-left: 50;
+    margin-right: 60;
+    margin-bottom: 50;
+}
+
+p{
+    padding-top: 70px;
+    padding- left: 40px;
+    padding: right 80px;
+    padding-bottom: 90px;
+    margin-bottom: 40px; 
+    margin top: 40px;
+    border: 1px solid blue;
+}
+
+h3{
+    border: 5px dashed rgb(126, 35, 84)  
+}
+#parrafo2{
+    font-size: 80px;
+    
+}
