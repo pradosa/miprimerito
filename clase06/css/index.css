@@ -55,3 +55,115 @@ header{
     color: blue;
 
 }
+
+.banner-top{
+    padding: 20px;
+    display: flex;
+    justify-content: center;¨¨
+}
+
+#contenedor{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    
+
+}
+
+.body{
+    background: tomato;
+}
+
+#contenedor img{
+    width: 100;
+}
+
+.primero{
+    padding: 2%;
+    
+}
+.segundo{
+    padding: 2%;
+    
+}
+.tercero{
+    padding: 2%;
+    
+}
+
+.footer{
+    margin-top: 25px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer ul{
+    list-style: none; 
+}
+
+.data{
+    margin-top: 10px;
+    background:rgb(149, 192, 253);
+    color: black;
+    
+
+}
+
+.map{
+    margin-top: 10px;
+    width: 60%;
+}
+
+@media screen and (min-width:660px) and (max-width:989){
+    .body{
+        background: yellow;
+    }
+    .logo{
+        width: 100%;
+        text-align: center;}
+}
+.banner-top{
+    display: none;
+}
+
+.primero{
+    width: 100%;
+}
+
+.primero figure{
+    height: 300px;
+    overflow: hidden;
+}
+
+.segundo{
+    width: 50%;
+}
+
+.tercero{
+    width: 50%;
+}
+
+@media screen and (min-width:990px)and (max-width:1900) {
+    .body{
+        background: rgb(14, 17, 145);
+    }
+}
+
+
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { ... }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { ... }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { ... }
